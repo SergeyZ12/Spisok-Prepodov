@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ТСПК</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <img src="logo.png" class="logo left">
+            <h1>ГАПОУ Тольяттинский социально-педагогический колледж</h1>
+        </header>
+
+        <h2 class="subtitle">Педагогический состав</h2>
+
+        <!-- Cards -->
+        <div class="cards">
+
+            <div class="card">
+                <div class="avatar empty"></div>
+                <h3>Грибова Любовь Вячеславовна</h3>
+                <p class="label">жизненное кредо:</p>
+                <div class="quote">
+                    "Наши дети будут лучше, чем мы, если в них будут верить больше, чем верили в нас"
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="avatar"><img src="img1.png"></div>
+                <h3>Ряполова Елена <br>
+                    Олеговна</h3>
+                <p class="label">жизненное кредо:</p>
+                <div class="quote">"Чтобы быть хорошим преподавателем, нужно любить то, что преподаёшь, и любить тех,
+                    кому преподаёшь"</div>
+            </div>
+
+            <div class="card">
+                <div class="avatar"><img src="img2.png"></div>
+                <h3>Дьякова Елизавета <br>
+                    Сергеевна</h3>
+                <p class="label">жизненное кредо:</p>
+                <div class="quote">"Все что не делается - к лучшему"</div>
+            </div>
+
+            <div class="card">
+                <div class="avatar"><img src="img3.png"></div>
+                <h3>Романова Татьяна Николаевна</h3>
+                <p class="label">жизненное кредо:</p>
+                <div class="quote empty-text">Нет информации</div>
+            </div>
+
+            <div class="card">
+                <div class="avatar"><img src="img4.png"></div>
+                <h3>Кондурар Марина <br>
+                    Викторовна</h3>
+                <p class="label">жизненное кредо:</p>
+                <div class="quote empty-text">Нет информации</div>
+            </div>
+
+            <div class="card">
+                <div class="avatar empty"></div>
+                <h3>Сараева Виктория Викторовна</h3>
+                <p class="label">жизненное кредо:</p>
+                <div class="quote empty-text">Нет информации</div>
+            </div>
+
+            <div class="card">
+                <div class="avatar"><img src="img5.png"></div>
+                <h3>Буцынцин Захар <br>
+                    Сергеевич</h3>
+                <p class="label">жизненное кредо:</p>
+                <div class="quote empty-text">"Парни, есть отличное предложение. 5 100 000 за первый год, интересует?"
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="avatar"><img src="img6.png"></div>
+                <h3>Аксинина Виктория <br>
+                    Юрьевна</h3>
+                <p class="label">жизненное кредо:</p>
+                <div class="quote empty-text">Нет информации</div>
+            </div>
+
+        </div>
+        <!-- Bottom -->
+        <div class="bottom-grid">
+
+            <!-- Заголовки -->
+            <div class="pill director-title">Директор :</div>
+            <div class="pill feedback-title">Обратная связь:</div>
+
+            <!-- Карточки -->
+            <div class="card-white director-card">
+                <img src="img7.png" class="director-photo">
+                <div>
+                    <p><b>Ланчиков Максим Николаевич</b></p>
+                    <p>тел.: (8482) 24-30-54 (приемная)</p>
+                </div>
+            </div>
+
+            <div class="card-white">
+                <p><b>1 корпус:</b></p>
+                <p>24-10-25 - Вахта 1 корпуса</p>
+                <p>24-30-54 - Приемная директора</p>
+                <p>E-mail: so_tspk@samara.edu.ru</p>
+            </div>
+
+            <div class="card-white">
+                <p><b>2 корпус:</b></p>
+                <p>48-20-93 - Вахта 2 корпуса</p>
+                <p>28-36-44 - Секретарь директора</p>
+                <p>E-mail: tspk-zo@yandex.ru</p>
+            </div>
+            <img src="logo.png" class="logo-bottom">
+
+        </div>
+
+        <!-- Модальное окно для увеличенной карточки -->
+        <div id="teacherModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalCard" class="card modal-card">
+                    <!-- Сюда будет вставляться содержимое карточки -->
+                </div>
+            </div>
+        </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
